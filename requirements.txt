@@ -1,0 +1,9 @@
+# ORO QC Checker v2 — Python dependencies
+# Install: pip install -r requirements.txt
+
+customtkinter>=5.2.2
+Pillow>=10.0.0          # required by customtkinter
+PyMuPDF>=1.23.0         # fitz — PDF text extraction
+openai>=1.12.0          # GPT-based extraction & online fact-check
+reportlab>=4.1.0        # PDF report generation
+requests>=2.31.0        # HTTP lookups (optional, used by online_checker)
